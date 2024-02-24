@@ -17,7 +17,7 @@ You can find the pre-built Docker image on Docker Hub at [jbeat/apache-php](http
    services:
    webserver:
    image: jbeat/apache-php:laravel-7.4.0
-   container_name: mydw
+   container_name: container-name
    ports:
    - "8000:80"
    volumes:
